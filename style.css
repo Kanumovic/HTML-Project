@@ -1,0 +1,23 @@
+body { 
+	background-color: pink;
+	margin: 0; 
+	font-family: 'Times New Roma'; 
+	font-size: 16px; 
+	line-height: 1.8em;
+
+	.skills .column { 
+ 	-ms-flex: 0 0 50%%; 
+ 	flex: 0 0 50%; 
+ 	max-width: 50%;
+
+ 	.course, .skills { 
+ 	display: -ms-flexbox; 
+ 	display: flex; 
+ 	-ms-flex-wrap: wrap; 
+ 	flex-wrap: wrap;
+ } 
+
+ .skills .column ul > li:before { 
+ 	content: "►"; 
+ 	padding-right: 0.5em; 
+ 	color: #509e98;
